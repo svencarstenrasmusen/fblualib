@@ -23,7 +23,7 @@ fi
 
 issue=$(cat /etc/issue)
 extra_packages=
-if [[ $issue =~ ^Ubuntu\ 13\.10 ]]; then
+if [[ $issue =~ ^Ubuntu\ 18\.10 ]]; then
     :
 elif [[ $issue =~ ^Ubuntu\ 18 ]]; then
     extra_packages=libiberty-dev
